@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV interactivo de Alejandro Yesid Uscamayta Apaza, estudiante de Ingeniería de Sistemas">
+  <meta name="author" content="Alejandro Yesid Uscamayta Apaza">
+  <title>Alejandro Uscamayta | CV Interactivo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <a class="skip_link" href="#contenido_principal">Saltar al contenido principal</a>
+
+  <header class="site_header" id="inicio">
+    <div class="container header_container">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand_mark">AU</span>
+        <span class="brand_text">Alejandro Uscamayta</span>
+      </a>
+
+      <button class="theme_toggle" id="theme_toggle_btn" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+        <span id="theme_icon" aria-hidden="true">☼</span>
+        <span id="theme_text">Modo claro</span>
+      </button>
+    </div>
+
+    <nav class="site_nav" aria-label="Navegación principal">
+      <div class="container nav_container">
+        <a href="#perfil">Perfil</a>
+        <a href="#formacion">Formación</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido_principal">
+    <section class="hero_section section_space" id="perfil" aria-labelledby="titulo_perfil">
+      <div class="container hero_grid">
+        <div class="hero_text">
+          <p class="eyebrow">CV INTERACTIVO · 2026</p>
+          <h1 id="titulo_perfil">Alejandro Yesid Uscamayta Apaza</h1>
+          <h2>Estudiante de Ingeniería de Sistemas</h2>
+          <p class="hero_description">
+            Estudiante de Ingeniería de Sistemas con interés en desarrollo web, programación,
+            bases de datos y redes. Busco seguir fortaleciendo mis conocimientos mediante proyectos
+            académicos y práctica constante.
+          </p>
+          <div class="hero_actions" aria-label="Acciones principales">
+            <a class="button button_primary" href="#proyectos">Ver proyectos</a>
+            <a class="button button_secondary" href="#contacto">Contactarme</a>
+          </div>
+        </div>
+
+        <div class="hero_profile_card">
+          <div class="profile_photo_frame">
+            <img src="assets/images/foto.jpg" alt="Alejandro Yesid Uscamayta Apaza">
+          </div>
+          <div class="profile_snapshot">
+            <p><strong>Ciudad</strong><span>La Paz, Bolivia</span></p>
+            <p><strong>Carrera</strong><span>Ingeniería de Sistemas</span></p>
+            <p><strong>Estado</strong><span>Estudiante</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_space" aria-labelledby="titulo_datos">
+      <div class="container">
+        <div class="section_heading">
+          <p class="eyebrow">PERFIL</p>
+          <h2 id="titulo_datos">Sobre mí</h2>
+        </div>
+
+        <div class="about_grid">
+          <article class="surface_card about_card">
+            <h3>Una presentación breve</h3>
+            <p>
+              Actualmente estudio Ingeniería de Sistemas en la Universidad Católica Boliviana.
+              Me interesa aprender cómo se conectan la programación, el desarrollo web, las bases
+              de datos y las redes para construir soluciones funcionales.
+            </p>
+            <p>
+              Mi objetivo es seguir ganando experiencia con proyectos reales y académicos,
+              mejorar mis habilidades técnicas y mantener una base sólida en las tecnologías que uso.
+            </p>
+          </article>
+
+          <article class="surface_card info_card">
+            <h3>Datos personales</h3>
+            <dl class="info_list">
+              <div><dt>Nombre</dt><dd>Alejandro Yesid Uscamayta Apaza</dd></div>
+              <div><dt>Carrera</dt><dd>Ingeniería de Sistemas</dd></div>
+              <div><dt>Ciudad</dt><dd>La Paz, Bolivia</dd></div>
+              <div><dt>Correo</dt><dd>alejandro.uscamayta@ucb.edu.bo</dd></div>
+              <div><dt>Teléfono</dt><dd>67026615</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_space" id="formacion" aria-labelledby="titulo_formacion">
+      <div class="container">
+        <div class="section_heading">
+          <p class="eyebrow">FORMACIÓN</p>
+          <h2 id="titulo_formacion">Formación académica</h2>
+        </div>
+
+        <div class="timeline_grid">
+          <article class="surface_card timeline_card">
+            <div class="timeline_marker" aria-hidden="true">01</div>
+            <div>
+              <p class="card_kicker">2026 – Actualmente</p>
+              <h3>Universidad Católica Boliviana</h3>
+              <p class="card_title">Ingeniería de Sistemas</p>
+              <p>La Paz, Bolivia</p>
+            </div>
+          </article>
+
+          <article class="surface_card timeline_card">
+            <div class="timeline_marker" aria-hidden="true">02</div>
+            <div>
+              <p class="card_kicker">Graduado en 2022</p>
+              <h3>Instituto Americano</h3>
+              <p class="card_title">Bachiller en Humanidades</p>
+              <p>La Paz, Bolivia</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_space accent_section" id="proyectos" aria-labelledby="titulo_proyectos">
+      <div class="container">
+        <div class="section_heading section_heading_light">
+          <p class="eyebrow">PROYECTOS</p>
+          <h2 id="titulo_proyectos">Proyectos y práctica académica</h2>
+        </div>
+
+        <div class="projects_grid">
+          <article class="project_card">
+            <span class="project_number">01</span>
+            <h3>Desarrollo web</h3>
+            <p>Creación de páginas con HTML5, CSS3 y JavaScript, aplicando diseño responsive, Flexbox y CSS Grid.</p>
+            <ul class="tag_list" aria-label="Tecnologías del proyecto">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive</li>
+            </ul>
+          </article>
+
+          <article class="project_card">
+            <span class="project_number">02</span>
+            <h3>Programación y estructuras de datos</h3>
+            <p>Práctica de programación con Java y C++, incluyendo listas, conjuntos, mapas, pruebas y resolución de problemas.</p>
+            <ul class="tag_list" aria-label="Tecnologías del proyecto">
+              <li>Java</li><li>C++</li><li>JUnit</li><li>Algoritmos</li>
+            </ul>
+          </article>
+
+          <article class="project_card">
+            <span class="project_number">03</span>
+            <h3>Bases de datos</h3>
+            <p>Diseño y manejo de bases de datos relacionales con consultas SQL, procedimientos y organización de información.</p>
+            <ul class="tag_list" aria-label="Tecnologías del proyecto">
+              <li>PostgreSQL</li><li>SQL</li><li>pgAdmin</li>
+            </ul>
+          </article>
+
+          <article class="project_card">
+            <span class="project_number">04</span>
+            <h3>Redes de computadoras</h3>
+            <p>Práctica de conceptos de redes y configuración de dispositivos en escenarios académicos.</p>
+            <ul class="tag_list" aria-label="Tecnologías del proyecto">
+              <li>Redes</li><li>VLAN</li><li>Routers</li><li>Switches</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_space" id="habilidades" aria-labelledby="titulo_habilidades">
+      <div class="container">
+        <div class="section_heading">
+          <p class="eyebrow">HABILIDADES</p>
+          <h2 id="titulo_habilidades">Conocimientos que estoy desarrollando</h2>
+        </div>
+
+        <div class="skills_grid">
+          <article class="surface_card skills_card">
+            <h3>Habilidades técnicas</h3>
+            <ul class="skill_list">
+              <li><div class="skill_header"><span>HTML5 / CSS3</span><span>Intermedio</span></div><div class="skill_bar" role="progressbar" aria-label="HTML5 y CSS3: intermedio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span class="skill_fill_75"></span></div></li>
+              <li><div class="skill_header"><span>Java</span><span>En desarrollo</span></div><div class="skill_bar" role="progressbar" aria-label="Java: en desarrollo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68"><span class="skill_fill_68"></span></div></li>
+              <li><div class="skill_header"><span>C++</span><span>En desarrollo</span></div><div class="skill_bar" role="progressbar" aria-label="C++: en desarrollo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span class="skill_fill_65"></span></div></li>
+              <li><div class="skill_header"><span>SQL</span><span>En desarrollo</span></div><div class="skill_bar" role="progressbar" aria-label="SQL: en desarrollo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"><span class="skill_fill_70"></span></div></li>
+              <li><div class="skill_header"><span>Python</span><span>En desarrollo</span></div><div class="skill_bar" role="progressbar" aria-label="Python: en desarrollo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span class="skill_fill_55"></span></div></li>
+              <li><div class="skill_header"><span>Git / GitHub</span><span>En desarrollo</span></div><div class="skill_bar" role="progressbar" aria-label="Git y GitHub: en desarrollo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span class="skill_fill_60"></span></div></li>
+            </ul>
+          </article>
+
+          <article class="surface_card skills_card">
+            <h3>Habilidades profesionales</h3>
+            <ul class="soft_skills">
+              <li><span>Trabajo en equipo</span><span>✓</span></li>
+              <li><span>Resolución de problemas</span><span>✓</span></li>
+              <li><span>Organización</span><span>✓</span></li>
+              <li><span>Responsabilidad</span><span>✓</span></li>
+              <li><span>Aprendizaje continuo</span><span>✓</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_space" id="idiomas" aria-labelledby="titulo_idiomas">
+      <div class="container narrow_container">
+        <div class="section_heading">
+          <p class="eyebrow">IDIOMAS</p>
+          <h2 id="titulo_idiomas">Idiomas</h2>
+        </div>
+
+        <div class="table_wrapper">
+          <table>
+            <caption>Idiomas y nivel actual</caption>
+            <thead>
+              <tr><th scope="col">Idioma</th><th scope="col">Nivel</th><th scope="col">Estado</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Español</td><td>Nativo</td><td>Uso habitual/diario</td></tr>
+              <tr><td>Inglés</td><td>En formación</td><td>Nivel 3</td></tr>
+              <tr><td>Portugués</td><td>En formación</td><td>Nivel 2</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_space project_feature" aria-labelledby="titulo_recurso">
+      <div class="container media_grid">
+        <div>
+          <div class="section_heading">
+            <p class="eyebrow">RECURSO VISUAL</p>
+            <h2 id="titulo_recurso">Un vistazo a mi trabajo</h2>
+          </div>
+          <p class="media_text">Echa un vistazo a uno de mis proyectos realizados para la carrera de Sistemas,
+             que consistía en conectar la infraestructura de dos ciudades aplicando medidas de seguridad y configurando
+              correctamente los dispositivos de las distintas VLAN. El proyecto también permitió habilitar servicios web,
+               correo electrónico, FTP, DNS y asignación de direcciones IP mediante DHCP.</p>
+        </div>
+        <figure class="media_card">
+          <img src="assets/images/proyecto.jpg" alt="Vista previa de un proyecto académico de desarrollo web">
+          <figcaption>Imagen basica de un proyecto sobre conectar infraestructura entre dos ciudades.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section_space contact_section" id="contacto" aria-labelledby="titulo_contacto">
+      <div class="container contact_grid">
+        <div class="contact_intro">
+          <div class="section_heading">
+            <p class="eyebrow">CONTACTO</p>
+            <h2 id="titulo_contacto">Contactame</h2>
+          </div>
+          <p>Este formulario permite dejarme un mensaje. Escribeme al correo por cualquier duda o sugerencia.</p>
+          <address class="contact_address">
+            <p><strong>La Paz, Bolivia</strong></p>
+            <p>Correo: alejandro.uscamayta@ucb.edu.bo</p>
+            <p>Teléfono: 67026615</p>
+          </address>
+        </div>
+
+        <form class="contact_form surface_card" id="contact_form" novalidate>
+          <div class="form_field">
+            <label for="nombre_contacto">Nombre completo</label>
+            <input id="nombre_contacto" name="nombre_contacto" type="text" autocomplete="name" required minlength="3" maxlength="60">
+            <small class="field_error" id="error_nombre" aria-live="polite"></small>
+          </div>
+
+          <div class="form_field">
+            <label for="correo_contacto">Correo electrónico</label>
+            <input id="correo_contacto" name="correo_contacto" type="email" autocomplete="email" required maxlength="100">
+            <small class="field_error" id="error_correo" aria-live="polite"></small>
+          </div>
+
+          <div class="form_field">
+            <label for="asunto_contacto">Asunto</label>
+            <input id="asunto_contacto" name="asunto_contacto" type="text" required minlength="4" maxlength="80">
+            <small class="field_error" id="error_asunto" aria-live="polite"></small>
+          </div>
+
+          <div class="form_field">
+            <label for="mensaje_contacto">Mensaje</label>
+            <textarea id="mensaje_contacto" name="mensaje_contacto" rows="5" required minlength="10" maxlength="500"></textarea>
+            <small class="field_error" id="error_mensaje" aria-live="polite"></small>
+          </div>
+
+          <button class="button button_primary button_full" type="submit">Enviar mensaje</button>
+          <p class="form_status" id="form_status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site_footer">
+    <div class="container footer_container">
+      <p>© <time datetime="2026">2026</time> Alejandro Yesid Uscamayta Apaza</p>
+      <nav aria-label="Enlaces profesionales">
+        <a href="https://github.com/AleUs26" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

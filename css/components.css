@@ -1,0 +1,66 @@
+.theme_toggle,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 42px;
+  border-radius: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform var(--transicion), background var(--transicion), border-color var(--transicion), color var(--transicion);
+}
+
+.theme_toggle {
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--color_borde);
+  background: var(--color_superficie);
+  color: var(--color_texto);
+}
+
+.theme_toggle:hover,
+.theme_toggle:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--color_principal);
+}
+
+.button {
+  padding: 0.72rem 1rem;
+  border: 1px solid transparent;
+}
+
+.button_primary {
+  background: var(--color_principal);
+  color: #10201e;
+}
+
+.button_primary:hover,
+.button_primary:focus-visible {
+  transform: translateY(-2px);
+  background: #7fe0d5;
+}
+
+.button_secondary {
+  border-color: var(--color_borde);
+  background: transparent;
+  color: var(--color_texto);
+}
+
+.button_secondary:hover,
+.button_secondary:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--color_secundario);
+  background: var(--color_superficie);
+}
+
+.button_full {
+  width: 100%;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(105, 210, 199, 0.35);
+  outline-offset: 3px;
+}
