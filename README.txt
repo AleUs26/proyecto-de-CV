@@ -29,4 +29,4 @@ Tecnologias que se usaron:
 - Git
 - GitHub
 
-Se cumplio con todo lo requerido para este proyecto
+Se cumplio con todo lo requerido para este proyecto segun lo que solicito el docente
