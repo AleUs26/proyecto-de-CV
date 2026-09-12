@@ -1,4 +1,7 @@
 CV INTERACTIVO - ALEJANDRO USCAMAYTA
+
+====================================
+
 Proyecto de CV interactivo desarrollado para la asignatura Tecnologias web I
 
 Estructura:
@@ -11,7 +14,7 @@ Estructura:
 - assets/images/foto.jpg
 - assets/images/proyecto.jpg
 
-Funcionalidades::
+Funcionalidades:
 - Diseño responsivo para móvil y escritorio.
 - Modo claro y oscuro.
 - Formulario de contacto con validación mediante JavaScript.
@@ -25,3 +28,5 @@ Tecnologias que se usaron:
 - JavaScript
 - Git
 - GitHub
+
+Se cumplio con todo lo requerido para este proyecto
